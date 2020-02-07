@@ -282,7 +282,6 @@
       "/Users/danielselph/turing/mod_2_projects/make_it_work/app/models/contestant_project.rb": {
         "lines": [
           1,
-          null,
           1,
           1,
           null
@@ -347,6 +346,6 @@
         ]
       }
     },
-    "timestamp": 1581093554
+    "timestamp": 1581094297
   }
 }

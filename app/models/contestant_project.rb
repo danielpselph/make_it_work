@@ -1,5 +1,4 @@
 class ContestantProject <ApplicationRecord
-    # validates_presence_of :
-    has_many :contestants
-    has_many :projects
+    belongs_to :contestant 
+    belongs_to :project
 end
