@@ -316,6 +316,40 @@
           null
         ]
       },
+      "/Users/danielselph/turing/mod_2_projects/make_it_work/spec/models/features/project_show_spec.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/danielselph/turing/mod_2_projects/make_it_work/spec/models/project_spec.rb": {
         "lines": [
           1,
@@ -346,6 +380,6 @@
         ]
       }
     },
-    "timestamp": 1581094297
+    "timestamp": 1581095822
   }
 }
