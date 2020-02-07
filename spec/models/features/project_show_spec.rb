@@ -11,9 +11,7 @@ require 'rails_helper'
 RSpec.describe 'As a visitor' do
     describe 'When I visit the projects show page' do
         before :each do
-            @project1 = Project.create(name: "Litfit",
-                                        material: "Lamp Shade",
-                                        challenge_theme: "Apartment Furnishings")
+            @project1 = Project.create(name: "Litfit", material: "Lamp Shade",)
         end 
 
         it "I see that projects name, material and theme of the challenge it belongs to" do
@@ -24,7 +22,7 @@ RSpec.describe 'As a visitor' do
             
             expect(page).to have_content(@project1.name)
             expect(page).to have_content(@project1.material)
-            expect(page).to have_content(@project1.challenge_theme)
+            expect(page).to have_content(@project1.challenge.theme)
         end
     end
 end
