@@ -16,7 +16,7 @@ RSpec.describe 'As a visitor' do
 
         it "I see that projects name, material and theme of the challenge it belongs to" do
 
-            visit "/projects/#{@project1.id}"
+            visit '/projects/#{@project1.id}'
 
             expect(current_path).to eq("/projects/#{@project1.id}")
             
